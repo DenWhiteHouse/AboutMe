@@ -9,4 +9,7 @@
         bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio
         bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio bio biobio bio bio
     </string>
+    <string name="insert_your_nick_hint">insert your nickane</string>
+    <string name="done">done</string>
+    <string name="insert_nickname_warning_toast">Please insert a nickname first</string>
 </resources>
