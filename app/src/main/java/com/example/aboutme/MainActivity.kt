@@ -11,11 +11,15 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var nicknameView : TextView
     lateinit var nicknameEdit : EditText
+    lateinit var nameText : TextView
+    private val myName: MyName = MyName("Denny")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         nicknameView = findViewById(R.id.nickname_tag)
+        nameText = findViewById(R.id.name_text)
+        nameText.setText(myName.name)
         nicknameEdit = findViewById(R.id.nickanme_edit)
     }
 
